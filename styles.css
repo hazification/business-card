@@ -1,0 +1,28 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #808080
+}
+
+.card {
+    display: flex;
+    border: 10px solid #808080;
+    background-color: #B2E6D7;
+}
+
+.photo-bg {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.div1 { grid-area: 1 / 1 / 3 / 3; }
+.div2 { grid-area: 2 / 2 / 4 / 4; }
+    
+
+.pic {
+    width: 200px;
+    padding: 0
+}
+
